@@ -55,11 +55,12 @@ color: white;
 }
 
 .join{
-color: black;
+color: white;
 text-decoration: none;
+background-color: #1398f6;
 }
 .join:hover{
-color: white;
+color: black;
 }
 
 .msg h2{
@@ -88,5 +89,8 @@ footer p a:hover{
 }
 
 .logo{
-width: 80px;
+    width: 80px;
+}
+.icon{
+    width: 80px;
 }
