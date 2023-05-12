@@ -1,10 +1,19 @@
-content{
-    max-width: 1600 px;
+#content{
+    max-width: 1600px;
     margin: 0 auto;
 }
-
+.home-title{
+    color: maroon;
+    
+}
 nav a{
     text-align: center;
+    color: skyblue;
+    background-color: navy;
+    text-decoration: none;
+}
+nav a:hover{
+    color: white;
 }
 
 #hero-msg h1{
@@ -13,6 +22,7 @@ nav a{
 
 #hero-msg h4{
     text-align: center;
+    color: navy;
 }
 
 .button-box{
@@ -21,4 +31,62 @@ nav a{
 
 main section{
     text-align: center;
+}
+
+#background{
+    height: 725px;
+    background-color: #13c7f6;
+}
+
+body {
+    background-color: #fcfbfb;
+
+}
+header {
+    background-color:#13f6ef;
+}
+
+.book{
+color: black;
+text-decoration: none;
+}
+.book:hover{
+color: white;
+}
+
+.join{
+color: black;
+text-decoration: none;
+}
+.join:hover{
+color: white;
+}
+
+.msg h2{
+color: navy;
+}
+.msg p{
+color:black;
+font-size: 1.4em;
+
+}
+footer{
+color: black;
+}
+footer a{
+color: navy;
+text-decoration: none;
+}
+footer a:hover{
+color:black;
+}
+footer p{
+    font-size: 1.2em;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+
+.logo{
+width: 80px;
 }
