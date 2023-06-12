@@ -66,6 +66,9 @@ nav a:hover{
     font-family: 'Indie Flower', Pacifico, 'Times New Roman';
     font-size: 30px;
 }
+#hero-img{
+    width: 100%;
+}
 
 /* misc */
 .button-box{
@@ -79,6 +82,7 @@ main section{
 /* This is the main section */
 .home-grid{
     display: grid;
+    grid-column: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 .card-img, .mountains{
     width: 100%;
@@ -110,6 +114,8 @@ main section{
     grid-row: 6/7;
     box-shadow: 5px 5px 10px #6f7364;
     z-index: 2;
+    Background-color: teal;
+
 }
 .mountains{
     width: 100%;
