@@ -98,7 +98,6 @@ p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
 }
-
 nav {
   background-color: var(--nav-background-color);
   line-height: 3em;
@@ -172,4 +171,31 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
+}
+/*Logo Image */
+
+#logo-image{
+  height: 20px;
+  width: 20px;
+}
+/*DND 5e Section*/
+.dnd-5e-many-images{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 40px 40px 40px;
+}
+.dice-img {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  width: 100%;
+}
+.generic-character-sheet{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+
+/*Pathfinder Section*/
+#pathfinder-image{
+  width:100%
 }
