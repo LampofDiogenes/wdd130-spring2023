@@ -1,0 +1,68 @@
+#background{
+    display: grid;
+    grid-template-columns:  1fr 400px 540px 1fr;
+    grid-template-rows: 100px 1fr 1fr;
+}
+#background-image{
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    grid-column: 1/5;
+    grid-row: 1/4;
+}
+
+#personal-image{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 400px;
+    height: 470px;
+}
+
+#about-me{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 70px;
+    padding-bottom: 46px;
+    background-color: white;
+
+    grid-template-rows: 1fr 50px 0px;
+
+}
+#name{
+    border-bottom: solid;
+}
+#position{
+    font-size: 10px;
+}
+#quotation-marks{
+    float: right;
+    width: 50px;
+    height: 50px;
+}
+
+#box1{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin: 5px;
+}
+#box2{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin: 5px;
+}
+#box3{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin: 5px;
+}
+#box4{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    margin: 5px;
+}
