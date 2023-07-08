@@ -179,23 +179,51 @@ nav a:hover {
   width: 20px;
 }
 /*DND 5e Section*/
-.dnd-5e-many-images{
+.image-container, img{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 40px 40px 40px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 80px 80px 80px;
 }
-.dice-img {
-  grid-column: 1/2;
+#dice-img {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 100%;
+  
+}
+#generic-character-sheet{
+  grid-column: 2/3;
   grid-row: 1/2;
   width: 100%;
-}
-.generic-character-sheet{
-  grid-column: 1/2;
-  grid-row: 1/2;
+  
 }
 
 
-/*Pathfinder Section*/
-#pathfinder-image{
-  width:100%
+/*dnd 5e section */
+#big-dragon{
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  width:100%;
+  height: 100%;
+}
+#creating-character{
+  grid-column: 2 / 3;
+  grid-row: 1 / 4;
+  width: 100%;
+  height: 100%
+}
+
+/*pathfinder section */
+
+#pathfinder-group{
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+  width:100%;
+  height: 100%;
+}
+
+#fighting-a-dragon{
+  grid-column: 2 / 3;
+  grid-row: 1 / 4;
+  width:100%;
+  height: 100%;
 }
