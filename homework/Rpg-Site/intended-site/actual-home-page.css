@@ -179,9 +179,9 @@ nav a:hover {
   width: 20px;
 }
 /*DND 5e Section*/
-.image-container, div{
+.image-container, img{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 80px 80px 80px;
 }
 #dice-img {
